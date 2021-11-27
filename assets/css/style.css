@@ -118,6 +118,7 @@ h1 {
 h2 {
     font-size: 50px;
 	padding: 20px 0px 24px 0px;
+    color:#001724;
 }
 h3 {
     font-size: 40px;
@@ -351,18 +352,19 @@ nav li li ul{
 .banner .bannerimg .bannercap h2{ font-size: 22px;}
 
 
-.inner .banner{height: 365px; margin-bottom:3em; position:relative;}
-.inner .banner .bannerimg:before{content: ""; position: absolute; width: 100%; height: 100%;  top: 0px;  left: 0; background: rgb(140,0,6);
-background: linear-gradient(180deg, rgba(140,0,6,0.40940126050420167) 24%, rgba(140,0,6,0.03405112044817926) 69%);}
-.inner .banner .bannerimg{height: 100%;}
+.inner .banner{margin-bottom:3em; position:relative;}
+.inner .banner .bannerimg:before{content: ""; position: absolute; width: 100%; height: 100%;  top: 0px;  left: 0; }
+.inner .banner .bannerimg{height: 77vh;}
 .inner .banner .bannercap{left: 7em; top: 7em;}
 .inner .banner .title{position: absolute;  bottom: 2em; color: #171717; padding: 20px; background-color: #ffffffc2;}
-.inner .banner .bannertitle{position: relative; height: 250px;}
+.inner .banner .bannertitle{position: relative;  text-align: center;  margin-top: 14em;}
 .inner .banner .bannertitle h2{color:#fff;}
 
 .about {margin-bottom: 3em;  margin-top: -3em; color: #fff;}
 
 .inner .about{color:inherit; margin-top: 2em;}
+
+.inner .pagecont{padding-bottom: 3em;}
 
 .meettheteam .intro{margin-bottom:2em;}
 .meettheteam .leadcont{padding:3em; font-size:16px;}
@@ -378,9 +380,17 @@ background: linear-gradient(180deg, rgba(140,0,6,0.40940126050420167) 24%, rgba(
 .experiences .expcont .imgbx{height: 365px; position:relative}
 .experiences .expcont .imgbx .cont{position:absolute; left:0px; bottom:1em; width:100%; text-align:center; color:#fff;}
 
-.ourserv{height: 85vh; padding-top: 9em; color:#fff;}
+.inner .experiences{text-align: center; }
+.inner .experiences .expcont { margin: 2em 0px 3em 0px;}
+
+.ourserv{height: 85vh; padding-top: 9em; font-weight: 400;}
+.ourserv .morebtn{border-color: #171717; color:#171717 !important;}
 
 .bestseller{position:relative; height:100vh; padding-top:9em; color:#fff;}
+
+.inner .bestseller{ padding-top:0; color:#171717; background-color: #efefef; height: auto;}
+.inner .bestseller .imgbx{height:75vh;}
+.inner .bestseller .cont{padding: 4em 7em 0px 0px;}
 
 .trends{background-color: #001724; color: #fff;  padding: 3em 0px 5em 0px;}
 .trends .imgbx{height:400px; position:relative;}
@@ -389,6 +399,9 @@ background: linear-gradient(180deg, rgba(140,0,6,0.40940126050420167) 24%, rgba(
 
 .travelwithus .imgbx{height:85vh;}
 .travelwithus .cont{text-align: right; padding: 7em;}
+
+.destinations .destimg{height: 75vh; position:relative;}
+.destinations .destimg .destibx{position: absolute; height: 100%; width: 500px; left: 6em; background-color: #000000c2; padding: 3em; color: #fff;}
 
 .helpbar{position:relative; padding:2em; color:#fff;}
 .helpbar:before{position:absolute; content: ""; height:100%; width:100%; left:0px; top:0px; background-color: #0017248c;}
