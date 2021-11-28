@@ -400,8 +400,13 @@ nav li li ul{
 .travelwithus .imgbx{height:85vh;}
 .travelwithus .cont{text-align: right; padding: 7em;}
 
-.destinations .destimg{height: 75vh; position:relative;}
-.destinations .destimg .destibx{position: absolute; height: 100%; width: 500px; left: 6em; background-color: #000000c2; padding: 3em; color: #fff;}
+.destinations .desti{float:left; position:relative;}
+.destinations .destimg{height: 75vh;}
+.destinations .destimg .destibx{position: absolute; height: 100%; width: 500px; left: 6em; background-color: #000000c2; padding: 5em 3em 3em 3em; color: #fff;}
+.scrollinks{position:absolute; bottom: 4em; left: 9em;}
+.scrollinks ul{margin:0px;}
+.scrollinks ul li{list-style:none; display:inline; margin: 0px 12px;}
+.scrollinks ul li a{padding: 23px 19px; color:#fff; font-weight:300; font-size: 30px; background-color: #000000db;}
 
 .helpbar{position:relative; padding:2em; color:#fff;}
 .helpbar:before{position:absolute; content: ""; height:100%; width:100%; left:0px; top:0px; background-color: #0017248c;}
