@@ -400,12 +400,13 @@ nav li li ul{
 .travelwithus .imgbx{height:85vh;}
 .travelwithus .cont{text-align: right; padding: 7em;}
 
-.destinations .desti{float:left; position:relative;}
+
+.carousel{overflow:hidden;}
 .destinations .destimg{height: 75vh;}
 .destinations .destimg .destibx{position: absolute; height: 100%; width: 500px; left: 6em; background-color: #000000c2; padding: 5em 3em 3em 3em; color: #fff;}
 .scrollinks{position:absolute; bottom: 4em; left: 9em;}
 .scrollinks ul{margin:0px;}
-.scrollinks ul li{list-style:none; display:inline; margin: 0px 12px;}
+.scrollinks ul li{list-style:none; display:inline; margin: 0px 21px;}
 .scrollinks ul li a{padding: 23px 19px; color:#fff; font-weight:300; font-size: 30px; background-color: #000000db;}
 
 .helpbar{position:relative; padding:2em; color:#fff;}
