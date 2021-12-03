@@ -523,15 +523,16 @@ footer .copybar{font-size: 12px; color:#fff; font-weight: 300; padding: 2em 0px;
 @media handheld and (max-width: 480px), screen and (max-device-width: 480px), screen and (max-width: 767px)  {
 .bodycont{width:100%; margin:0px auto;}
 article{width:85%;}
-header{position:relative;}
+header{position:relative; min-height: 217px;}
 
 header .logo{ width: 100%; margin: 0px;  text-align: center;  margin: 1px 0px;}
 header .logo img{ width: 187px; margin: 1em 0px;}
 
 header .navholder {padding:0px; width:100%;}
-header .navigation{width:100%; margin:0px; position: absolute; left: 0px;}
-header .navigation .topnav { text-align: center; width: 100%; color: #000;}
+header .navigation{width:100%; margin:0px; position: absolute; left: 0px; bottom: 0px;}
+header .navigation .topnav { text-align: center; width: 100%; bottom: 0px;}
 header .navigation .topnav .firstnav{width:100%; margin: 0px;}
+header .navigation .topnav ul.morelist {  float: none; margin-top: 8px; }
 
 header .navigation .topnav .contacts { text-align: center; margin: 0px; line-height: 2; width: 100%; margin-top: 13px;}
 header .social{float:none !important; text-align:center; margin-top:20px;}
@@ -540,10 +541,13 @@ header .social li a{padding-left: 0px; margin-left: 0px;}
 
 header .navigation .searchnav { margin-right: 3em; position: absolute; right: 0px; top: 2em; z-index: 4;}
 
-.home .banner .bannerimg { background-position-x: -19em !important;  height: 380px; overflow: hidden; position: relative; }
+.home .banner .bannerimg { background-position-x: -19em !important;  height: 43vh; overflow: hidden; position: relative; }
 
 .inner .banner {height:auto;}
 .inner .banner .bannerimg { height: 303px; overflow: hidden; position: relative;}
+.inner .banner .bannertitle { margin-top: 6em;}
+
+.banner .bannerimg .bannercap { top: 2em; font-size: 31px;}
 
 .banner .bannerimg .bannercap {  bottom: 0em; width: 100%;  padding: 8px 40px; right: 0em; color: #ffffff;}
 .banner .bannerimg .bannercap h2 { font-size: 16px;}
@@ -552,9 +556,31 @@ header .navigation .searchnav { margin-right: 3em; position: absolute; right: 0p
 
 .about { margin-top: 0; margin-bottom:3em;}
 .about .cont { padding: 1.5em;}
-.about .aboutimg {width: 100%; height: 300px;}
+
+.meettheteam .leadimg{ height: 300px;}
+.meettheteam .leadbx { margin-bottom: 3em;}
+.meettheteam .leadcont { padding: 2em 2em 0em 2em;}
+
+.ourserv:before{content:""; width:100%; height:100%; position:absolute; top:0px; left:0px; background-color:#ffffffb0;}
 
 
+.experiences .expcont .imgbx { margin-bottom: 30px;}
+
+.bestseller{padding-top: 5em;}
+.home .bestseller h2{color:#fff;}
+.inner .bestseller .cont {padding:0px 1em 3em 1em;}
+.inner .bestseller .morebtn {color: #000 !important;  padding: 11px 30px; border: #000 1px solid; font-size: 14px;
+}
+.trends h2{color:#fff;}
+.trends .imgbx {margin-bottom: 30px;}
+.travelwithus .imgbx { display: none;}
+.travelwithus .cont {padding: 4em;}
+
+.partners .cont { display: block;}
+.partners .partlogo { text-align: center;}
+.partners .partlogo img, .partners .partlogo img.long { float: none;}
+
+.destinations .destimg .destibx {width: 100%; left: 0;}
 
 .whatwedo { min-height: 107vh;}
 
@@ -572,6 +598,7 @@ header .navigation .searchnav { margin-right: 3em; position: absolute; right: 0p
 .grid .current h3 {  font-size: 33px;  line-height: 34px;}
 
 .prodserv .prodcategory {  margin-bottom: 20px;}
+.scrollinks { left: 3em;}
 
 footer .footmenu{text-align:center;}
 footer .footmenu li { display: list-item;  margin-bottom: 14px;}
